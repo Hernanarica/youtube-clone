@@ -1,0 +1,83 @@
+.light-mode {
+	/* Sections */
+	/* header */
+	--header-bg: #ffffff;
+	--header-search-bg: #ffffff;
+	--header-search-border: #CCCCCC;
+	--header-search-placeholder: #888888;
+	--header-btn-search-bg: #F8F8F8;
+	--header-btn-mic-bg: #F9F9F9;
+	
+	/* Text */
+	--text-color: #000000;
+	
+	/* main */
+	--main-bg: #F9F9F9;
+	
+	/* sidebar */
+	--sidebar-bg: #ffffff;
+	--sidebar-title: #636363;
+	--sidebar-devider: #E5E5E5;
+	--sidebar-item-bg: #ffffff;
+	--sidebar-item-bg-active: #D9D9D9;
+	
+	
+	/* Components */
+	/* badge */
+	--badge-bg: #F2F2F2;
+	--badge-bg-active: #D9D9D9;
+	--badge-border: #D9D9D9;
+	
+	/* Card */
+	--card-bg: transparent;
+	--card-title: #000000;
+	--card-text: #727272;
+	
+	/* carousel */
+	--carousel-border: #E8E8E8;
+	
+	/* bullet */
+	--bullet-status: #065FD4;
+}
+
+.dark-mode {
+	/* Sections */
+	/* header */
+	--header-bg: #242424;
+	--header-search-bg: #181818;
+	--header-search-border: #424242;
+	--header-search-placeholder: #888888;
+	--header-btn-search-bg: #424242;
+	--header-btn-mic-bg: #424242;
+	
+	/* Text */
+	--text-color: #ffffff;
+	
+	/* main */
+	--main-bg: #212121;
+	
+	/* sidebar */
+	--sidebar-bg: #212121;
+	--sidebar-title: #AAAAAA;
+	--sidebar-devider: #303030;
+	--sidebar-item-bg: #212121;
+	--sidebar-item-bg-active: #303030;
+	
+	
+	/* Components */
+	/* badge */
+	--badge-bg: #575757;
+	--badge-bg-active: #343434;
+	--badge-border: #424242;
+	
+	/* Card */
+	--card-bg: transparent;
+	--card-title: #ffffff;
+	--card-text: #909090;
+	
+	/* carousel */
+	--carousel-border: #424242;
+	
+	/* bullet */
+	--bullet-status: #065FD4;
+}
