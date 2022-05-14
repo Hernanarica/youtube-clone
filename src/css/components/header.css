@@ -1,0 +1,21 @@
+.header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	inline-size: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 12px;
+	background: var(--header-bg);
+}
+
+.header__brand {
+	margin: 0;
+}
+
+.header__actions {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}

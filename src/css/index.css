@@ -2,5 +2,14 @@
 @import './bootstrapping/bootstrapping.css';
 
 /* Sections files */
+@import './sections/body.css';
+
 
 /* Components files */
+@import './components/header.css';
+@import './components/button-icon.css';
+@import './components/navbar-mob.css';
+@import './components/categories.css';
+@import './components/badge.css';
+@import './components/video-card.css';
+@import './components/scroll-bar.css';

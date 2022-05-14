@@ -25,7 +25,10 @@
 	/* Components */
 	/* badge */
 	--badge-bg: #F2F2F2;
-	--badge-bg-active: #D9D9D9;
+	--badge-text-color: #000000;
+	--badge-text-color-active: #ffffff;
+	--badge-bg-hover: #D9D9D9;
+	--badge-bg-active: #000000;
 	--badge-border: #D9D9D9;
 	
 	/* Card */

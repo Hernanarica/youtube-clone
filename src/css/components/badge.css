@@ -1,0 +1,23 @@
+.badge {
+	display: inline-block;
+	padding: 6px 12px;
+	border: 1px solid var(--badge-border);
+	border-radius: 1rem;
+	background: var(--badge-bg);
+	cursor: pointer;
+}
+
+.badge--hover:hover {
+	background: var(--badge-bg-hover);
+	color: var(--badge-text-color);
+}
+
+.badge--active{
+	text-decoration: none;
+	color: var(--badge-text-color);
+}
+
+.badge--active:active {
+	background: var(--badge-bg-active);
+	color: var(--badge-text-color-active);
+}
