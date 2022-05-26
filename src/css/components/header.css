@@ -10,12 +10,48 @@
 	background: var(--header-bg);
 }
 
+.header__icon-logo .btn-icon {
+	display: none;
+}
+
 .header__brand {
 	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .header__actions {
 	display: flex;
 	align-items: center;
 	gap: 1.5rem;
+}
+
+.header__actions .btn-icon:nth-of-type(2),
+.header__actions .btn-icon:nth-of-type(4) {
+	display: none;
+}
+
+@media screen and (min-width: 1280px) {
+	.header__icon-logo {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+	
+	.header__icon-logo .btn-icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.header__actions .btn-icon:first-child,
+	.header__actions .btn-icon:nth-of-type(5) {
+		display: none;
+	}
+	
+	.header__actions .btn-icon:nth-of-type(2),
+	.header__actions .btn-icon:nth-of-type(4) {
+		display: block;
+	}
 }

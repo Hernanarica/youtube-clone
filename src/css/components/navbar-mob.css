@@ -20,3 +20,9 @@
 	inline-size: 100%;
 	list-style: none;
 }
+
+@media screen and (min-width: 1280px) {
+	.navbar-mob {
+		display: none;
+	}
+}
