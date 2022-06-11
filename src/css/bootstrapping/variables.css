@@ -17,7 +17,7 @@
 	/* sidebar */
 	--sidebar-bg: #ffffff;
 	--sidebar-title: #636363;
-	--sidebar-devider: #E5E5E5;
+	--sidebar-devided: #E5E5E5;
 	--sidebar-item-bg: #ffffff;
 	--sidebar-item-bg-active: #D9D9D9;
 	
@@ -62,7 +62,7 @@
 	/* sidebar */
 	--sidebar-bg: #212121;
 	--sidebar-title: #AAAAAA;
-	--sidebar-devider: #303030;
+	--sidebar-devided: #303030;
 	--sidebar-item-bg: #212121;
 	--sidebar-item-bg-active: #303030;
 	

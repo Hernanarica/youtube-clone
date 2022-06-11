@@ -1,0 +1,39 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+
+.sidebar__section {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-family: Roboto, sans-serif;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	background: var(--sidebar-bg);
+}
+
+.sidebar__item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1rem;
+	padding-inline: 0.75rem;
+	padding-block: 0.5625rem;
+	cursor: pointer;
+}
+
+.sidebar__item > * {
+	margin: 0;
+}
+
+.sidebar__item:hover {
+	background: var(--sidebar-item-bg-active);
+}
+
+
+.devided {
+	border: 1px solid var(--sidebar-devided);
+	margin: 0;
+}
