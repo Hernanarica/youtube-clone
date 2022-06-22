@@ -23,5 +23,7 @@
 	
 	.content {
 		grid-area: content;
+		block-size: calc(100vh - 3.625rem);
+		overflow: auto;
 	}
 }

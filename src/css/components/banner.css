@@ -1,0 +1,15 @@
+.banner {
+	display: none;
+}
+
+.banner__image {
+	inline-size: 100%;
+	vertical-align: middle;
+	object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+	.banner {
+		display: block;
+	}
+}

@@ -7,3 +7,13 @@ body::-webkit-scrollbar-thumb {
    background-color: #000000;
    border-radius: 5px;
 }
+
+.categories__items::-webkit-scrollbar {
+   width: 0;
+   background-color: transparent;
+}
+
+.categories__items::-webkit-scrollbar-thumb {
+   background-color: transparent;
+   border-radius: 5px;
+}
